@@ -2,18 +2,19 @@
 
  *  FILE DESCRIPTION
  *  -----------------------------------------------------------------------
- *         File:  IntCtrl_Cfg.h
+ *         File:  IntCtrl_Tyeps.h
  *       Module:  -
  *
  *  Description: <Write File DESCRIPTION here>
  *
  *************************************************************************/
-#ifndef INTCTRL_CFG.H
-#ifndef INTCTRL_CFG.H
+#ifndef INTCTRL_TYPES.H
+#ifndef INTCTRL_TYPES.H
 
  /*************************************************************************
  *  INCLUDES
  *************************************************************************/
+#include "Std_Types.h"
 
  /*************************************************************************
  *  GLOBAL CONSTANT MACROS
@@ -26,9 +27,13 @@
  /*************************************************************************
  *  GLOBAL DATA TYPES AND STRUCTURES
  *************************************************************************/
+ typedef enum
+ {
+     
+ }IntCtrl_InterruptType;
  
-#endif /* INTCTRL_CFG.H */
+#endif /* INTCTRL_TYPES.H */
 
  /*************************************************************************
- *  END OF FILE: IntCtrl_Cfg.h
+ *  END OF FILE: IntCtrl_Types.h
  *************************************************************************/
